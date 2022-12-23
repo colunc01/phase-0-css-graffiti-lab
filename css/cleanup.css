@@ -1,1 +1,29 @@
 /* write your override styles here */
+/* first tag1*/
+#wall .tag-1 {
+    display: none;
+  }
+  
+  /*brick wall overriding to not delete it*/
+  #wall {
+      opacity: 100;
+  }
+
+  .parent  {
+    display: none;
+  }
+  
+  /*Because tag-2 and tag-3 are ID's and can't be overridden without inline styling
+  and I'm not allowed to change other files - I had to use the !important tag for both*/
+  #tag-2 {
+    display: none !important;
+  }
+
+  #tag-3 {
+    display: none !important;
+  }
+  
+  
+
+  
+  
